@@ -13,11 +13,15 @@ export default function Header() {
 
           <nav>
             <Link to='/Women'>
-              <h4 className='nav_link'> Accessoires Femme </h4>
+              <h4 className='nav_link'> Accessoires 
+                <p> Femme  </p>
+                </h4>
             </Link>
 
             <Link to='/Men'>
-              <h4 className='nav_link'> Accessoires Homme </h4>
+              <h4 className='nav_link'> Accessoires 
+                <p> Homme </p>
+                </h4>
             </Link>
 
             <Link to=''>
